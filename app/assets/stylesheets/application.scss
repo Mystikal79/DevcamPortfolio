@@ -160,3 +160,29 @@ body {
     width: 55rem;
   }
 }
+
+
+/*
+ * Custom Styling
+ */
+
+.card-block {
+  color: black;
+  text-align: left;
+}
+
+.card {
+  background-color: gray;
+}
+
+.vline {
+  border-left: 1px solid black;
+  padding: 5px;
+  margin-top: 30px;
+  margin-left: 0px;
+}
+
+.auth-links a {
+  color: white;
+  margin-bottom: 5px;
+}
