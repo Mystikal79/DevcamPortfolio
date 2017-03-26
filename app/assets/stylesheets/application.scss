@@ -183,6 +183,22 @@ body {
 }
 
 .auth-links a {
-  color: white;
-  margin-bottom: 5px;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.register-text {
+  text-align: right;
+}
+
+.login > .card {
+  width: 30em;
+  margin: 0 auto;
+  float: none;
+}
+
+.password-reset > .card {
+  width: 23.5em;
+  margin: 0 auto;
+  float: none;
 }
