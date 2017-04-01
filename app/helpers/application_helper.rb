@@ -15,4 +15,8 @@ module ApplicationHelper
       content_tag(:p, greeting, class: "source-greeting")
     end
   end
+
+  def copyright_generator
+    DevcamViewTool::Renderer.copyright 'Ken Thepvongsa', 'All rights reserved'
+  end
 end
