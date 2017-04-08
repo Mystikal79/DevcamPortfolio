@@ -29,7 +29,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  background-color: #333;
 }
 body {
   color: #fff;
@@ -210,4 +209,35 @@ body {
 
 .nav-auth {
   margin-left: 4px;
+}
+
+.line {
+  color: white;
+  border: 1px solid;
+}
+
+#background {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background: image-url('tech_bg.jpg') no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+}
+
+.about {
+  color: white;
+  text-shadow: 1.5px 1.5px #000;
+}
+
+.app-footer {
+  color: white;
+  text-shadow: 2px 2px #000;
 }
