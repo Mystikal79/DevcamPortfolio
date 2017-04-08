@@ -19,7 +19,16 @@
 
         <div class="cover-container">
 
-          <div id="background"></div>
+          <!-- <div id="background"></div> -->
+
+          <%= video_tag('Raindrops.mp4', 
+            id: 'background', 
+            autoplay: true, 
+            loop: true, 
+            muted: true, 
+            poster: 'tech_bg.jpg'
+          ) 
+          %>
 
           <%= render "shared/application_nav" %>
 
